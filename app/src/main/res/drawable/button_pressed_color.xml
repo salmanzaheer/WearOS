@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+
+        <color android:color="#fa545c"/>
+    </item>
+
+    <item android:state_enabled="true">
+        <color android:color="@color/colorStateEnabled"/>
+    </item>
+
+    <item android:state_enabled="false">
+        <color android:color="@color/theme"/>
+    </item>
+
+    <shape>
+        <corners  android:radius="50dp"/>
+    </shape>
+
+
+</selector>
